@@ -125,36 +125,36 @@ const storyContent = {
       subtitle: "Every great build starts with understanding the requirements",
       content: {
           resume: "My resume at https://registry.json.org/melroser showcases 10+ years building full-stack applications, leading teams, and pioneering AI-assisted development.",
-          email: `From: Your Recruiter
-          Subject: Full Stack Engineer - Fusion Risk Management
+          email: `From: Mark Siwa
+ Subject: Full Stack Engineer - Fusion Risk Management
 
-          Hi Rob,
+ Hi Rob,
 
           I really appreciate your time today and looking forward to working with you. Attached is the job description for the Full Stack Engineer with Fusion Risk Management. As we discussed, please send over a cover letter highlighting your experience vibe coding as well as the AI-assisted tools/bots/IDEs you've used.
 
-                  Key Requirements:
-                      • Entrepreneurial engineer who drives customer value
+          Key Requirements:
+              • Entrepreneurial engineer who drives customer value
               • Greenfield Azure opportunity 
-          • Experience with Gen AI Dev Tools (Cursor, Gemini, ChatGPT, CoPilot)
-          • Backend: Java, .NET | Frontend: React, Angular
-          • Remote position`,
+              • Experience with Gen AI Dev Tools (Cursor, Gemini, ChatGPT, CoPilot)
+              • Backend: Java, .NET | Frontend: React, Angular
+              • Remote position`,
           notes: `My notes from our call:
 
-              🤖 Recruiter was REALLY interested in the LeRobot Worldwide Hackathon
-          - Kicked off by Hugging Face CEO Clem Delangue
-          - Built autonomous robot navigation system
-          - Team won "Most Innovative Use of AI"
+          🤖 Recruiter was very interested in the LeRobot Worldwide Hackathon
+              - Kicked off by Hugging Face CEO Clem Delangue
+              - Built autonomous robot navigation system
+              - Team won "Most Innovative Use of AI"
 
           💻 Windsurf Vibe Coding Meetup
-          - I taught 30+ developers the new Windsurf IDE
-          - Live-coded a full app using AI pair programming
-          - "Vibe coding" = flowing with AI suggestions
+              - I taught 30+ developers the new Windsurf IDE
+              - Live-coded a full app using AI pair programming
+              - "Vibe coding" = flowing with AI suggestions
 
           Key points to emphasize:
-              - Speaker/mentor at conferences
-          - Tools: Cursor, Hugging Face, Windsurf
-          - Teaching others how to leverage AI
-          - Entrepreneurial mindset`
+            - Speaker/mentor at conferences
+            - Tools: Cursor, Hugging Face, Windsurf
+            - Teaching others how to leverage AI
+            - Entrepreneurial mindset`
       },
       events: [
           {
@@ -172,9 +172,10 @@ const storyContent = {
       ]
   },
   promptCreation: {
-      title: "Step 2: Prompt Builder",
-      subtitle: "Building an AI system to understand context and generate targeted content",
-      content: `I created a sophisticated prompt engineering system:
+      title: "Step 2: Prompt Writing  ",
+      subtitle: "Make a system prompt for generating cover letters",
+      content: `Using a prompt writing agent I had built previously, 
+      I created a sophisticated prompt for a cover letter writing agent.
 
           <identity>
       You are a world-class career strategist specializing in tech/AI sectors...
@@ -195,11 +196,11 @@ const storyContent = {
       4. Maintains authentic voice
       </task>
 
-      The prompt was 2,000+ words of carefully crafted instructions to ensure the AI understood not just WHAT to write, but HOW to think about the problem.`
+      The prompt was 2,000+ words of structured instructions to ensure the AI would assume a role.`
   },
   aiDraft: {
       title: "Step 3: First Draft",
-      subtitle: "Claude generates a professional but formulaic draft",
+      subtitle: "Claude generates a professional but robotic draft",
       content: `August 5, 2025
 
       Fusion Risk Management Hiring Team
@@ -213,12 +214,12 @@ const storyContent = {
           Furthermore, I am passionate about fostering teamwork and teaching others, which I believe is crucial for the success of a foundational project. As a speaker and guide at a recent Windsurf conference, I mentored other developers on leveraging new frameworks. My enthusiasm for collaborative building was also on display during my participation in the LeRobot Worldwide Hackathon, an event kicked off by Hugging Face's CEO, which sharpened my ability to work effectively in a team to solve complex problems under pressure.
 
           [Rest of letter continues...]`,
-      analysis: "Professional but generic. Mentions the key events but lacks personality. Sounds like every other cover letter."
+      analysis: "Very artificial. Mentions the key events but lacks personality. Sounds like an AI cover letter."
   },
   humanizerCreation: {
       title: "Step 4: Make a Humanizer",
-      subtitle: "Creating an AI to inject authentic personality",
-      content: `I built a specialized "humanizer" prompt:
+      subtitle: "Create an agent to inject authentic personality",
+      content: `I built a specialized "humanizer" prompt using the prompt generator agent from before:
 
           <purpose>
       Transform corporate buzzword soup into how a real human talks
@@ -238,7 +239,7 @@ const storyContent = {
   },
   overHumanized: {
       title: "Step 5: Tuning Required",
-      subtitle: "The humanizer creates the 'George Hotz' version",
+      subtitle: "The humanizer goes overboard",
       content: `After chatting with your recruiter about the Full Stack Engineer role at Fusion Risk Management, I couldn't stop thinking about it. Building something completely new on Azure from scratch? That's the kind of challenge that gets me out of bed in the morning.
 
           Here's what really grabbed me: you're not just looking for someone to write code – you're looking for someone who thinks like an entrepreneur and builds like a hacker. That's exactly how I work. Just last week at the AI Collective Open Build, I decided to see how fast I could whip up a Google Slides clone using what I call "vibe coding" – basically riding the wave of AI assistance to go from idea to working prototype. One hour later, I had a functional app. Not because I'm some coding superhero, but because I've learned to dance with tools like Cursor, ChatGPT, and CoPilot in ways that turn development into jazz improvisation.
